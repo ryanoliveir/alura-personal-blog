@@ -10,7 +10,7 @@
   --main-color-font: #041833;
   --post-color-font: #444444;
   --main-font: 'Raleway', sans-serif;
-  --secundary-font: 'Playfair Display', sans-serif;
+  --secondary-font: 'Playfair Display', sans-serif;
 
   font-family: var(--main-font);
 }
