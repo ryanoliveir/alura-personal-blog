@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Home from '../pages/Home';
 import AboutMe from '../pages/AboutMe';
 import NotFound from '../pages/404'
+import Footer from "components/Footer";
 
 function AppRoutes() {
   return (
@@ -13,6 +14,7 @@ function AppRoutes() {
         <Route path="/aboutme" element={<AboutMe/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
