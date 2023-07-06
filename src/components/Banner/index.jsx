@@ -21,7 +21,7 @@ const Banner = () => {
                 />
 
                 <img className={styles.personal_picture} 
-                    src={process.env.PUBLIC_URL +"/assets/minha_foto.png"} 
+                    src={process.env.PUBLIC_URL +"/assets/my_picture.png"} 
                     alt="Personal"
                 />
             </div>
