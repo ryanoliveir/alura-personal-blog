@@ -17,7 +17,9 @@ const Post = () => {
     });
 
 
-    console.log(post);
+    if(!post){
+      return <h1>Post não encontrado</h1>
+    }
 
     return (
         <PostModel 

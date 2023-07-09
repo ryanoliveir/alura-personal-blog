@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Post.module.css'
+import Button from 'components/Button'
 const PostCard  = ({post}) => {
     return (
       <Link to={`posts/${post.id}`}>
@@ -11,8 +12,8 @@ const PostCard  = ({post}) => {
             /> 
 
           <h2 className={styles.title}>{post.title}</h2>
-        
-          <button className={styles.read_button}>Read</button>
+      
+          <Button>Read</Button>
         </div>
       </Link>
     )
