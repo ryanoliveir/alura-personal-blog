@@ -1,0 +1,17 @@
+.container_post_recommended ul{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    margin-top: 1rem;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;
+}
+.container_post_recommended li {
+     margin-top: 1rem;
+}
