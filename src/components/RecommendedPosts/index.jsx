@@ -14,7 +14,7 @@ const RecomendedPosts = ({currentPostId, posts}) => {
     return (
         <section className={styles.container_post_recommended}>
             <h1 className={styles.title}>Outros posts que você pode gostar:</h1>
-            <ul>
+            <ul className={styles.post_selected}>
                 {recomendedPosts.map(post => (
                     <li key={post.id}>
                         <PostCard post={post} />

@@ -3,7 +3,7 @@ import styles from './Post.module.css'
 import Button from 'components/Button'
 const PostCard  = ({post}) => {
     return (
-      <Link to={`posts/${post.id}`}>
+      <Link to={`/posts/${post.id}`}>
         <div className={styles.post}>
           <img 
             className={styles.cover_photo} 
